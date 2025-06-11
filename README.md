@@ -39,7 +39,7 @@ This repository combines traditional 3D reconstruction techniques with mobile AR
 3. Select the top 10 images with the most diverse translation values using:
    ```python
    get_top_images_by_translation()
-````
+   ```
 
 ### Feature Detection & Matching
 
@@ -59,12 +59,9 @@ This repository combines traditional 3D reconstruction techniques with mobile AR
 * Apply cheirality condition to filter valid points.
 * Visualize the point cloud using `open3d.visualization.draw_geometries`.
 
-📸 **Insert Sample 3D Point Cloud Image Below:**
-![3D Point Cloud](path/to/pointcloud_image.jpg)
-
 ---
 
-## Augmented Reality Visualization
+## Augmented Reality Visualization (not present in this repository)
 
 ### App Setup
 
@@ -84,11 +81,6 @@ This repository combines traditional 3D reconstruction techniques with mobile AR
 4. Load and display the 3D model at the tapped location.
 5. Allow user to walk around and inspect the model in 360°.
 ```
-
-📱 **Insert Sample AR Visualizations Below:**
-
-* ![AR Front View](path/to/ar_front_view.jpg)
-* ![AR Side View](path/to/ar_side_view.jpg)
 
 ---
 
@@ -130,7 +122,3 @@ This repository combines traditional 3D reconstruction techniques with mobile AR
 * **Sarim Malik** – [26100129@lums.edu.pk](mailto:26100129@lums.edu.pk)
 
 ---
-
-## License
-
-[MIT License](LICENSE)
